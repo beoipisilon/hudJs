@@ -4,12 +4,6 @@ body{
     margin: 0;
     padding: 0;
 }
-.background-image{
-    background-image: url('https://images.alphacoders.com/108/1083267.png');
-    width: 1920px;
-    height: 1080px;
-    filter:  grayscale(70%) blur(8px)
-}
 .rectangles__hud{
     position: absolute;
     right: 2%;

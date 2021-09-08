@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.background-image{
+    background-image: url('https://images.alphacoders.com/108/1083267.png');
+    width: 1920px;
+    height: 1080px;
+    filter:  grayscale(70%) blur(8px)
+}
+.rectangles__hud{
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+}
+.rectangles__hud .rectangle__talk{
+    display: flex;
+    justify-content: flex-end;
+}
+.rectangles__hud .rectangle__talk > i{
+    color: white;
+    font-size: 11px;
+}
+.rectangles__hud .rectangle__talk .talking{
+    font-family: Poppins;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin: 0px 5px 0px 5px;
+}
+
+.rectangle__outside{
+    width: 150px;
+    margin: 5px;
+    padding: 2px;
+    border: 1px solid rgb(191,188,179);
+}
+
+.rectangle__health{
+    background-color: rgb(60,114,44);
+    width: 150px;
+    height: 20px;
+}
+
+.rectangle__outside i{
+    font-size: 11px;
+    color: #fafafa;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.rectangle__infos{
+    background-color: rgba(0,0,0,.1);
+    margin: 5px 0px 0px 5px;
+    padding: 2px;
+    border: 1px solid rgb(191,188,179);
+    width: 70px;
+    text-align: center;
+}
+.rectangle__infos i{
+    color: #fafafa;
+    font-size: 13px;
+    margin-right: 5px;
+}
+.rectangle__infos span{
+    font-family: Poppins;
+    color: #fafafa;
+    font-size: 13px;
+}
